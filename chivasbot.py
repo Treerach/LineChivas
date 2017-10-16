@@ -24,7 +24,7 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" Chivas Bot
+helpMessage =""" SelfBot
 [Id︎]
 [Mid]
 [Me︎]
@@ -99,7 +99,7 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":True,
-    "cName":"Chivas ",
+    "cName":" ",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
@@ -668,7 +668,7 @@ def bot(op):
                     X.preventJoinByTicket = False
                     ki.updateGroup(X)
                     if wait["lang"] == "JP":
-                        ki.sendText(msg.to,"Done Chivas")
+                        ki.sendText(msg.to,"Done")
                     else:
                         ki.sendText(msg.to,"already open")
                 else:
@@ -682,7 +682,7 @@ def bot(op):
                     X.preventJoinByTicket = False
                     kk.updateGroup(X)
                     if wait["lang"] == "JP":
-                        kk.sendText(msg.to,"Done Chivas")
+                        kk.sendText(msg.to,"Done")
                     else:
                         kk.sendText(msg.to,"already open")
                 else:
@@ -696,7 +696,7 @@ def bot(op):
                     X.preventJoinByTicket = False
                     kc.updateGroup(X)
                     if wait["lang"] == "JP":
-                        kc.sendText(msg.to,"Done Chivas")
+                        kc.sendText(msg.to,"Done")
                     else:
                         kc.sendText(msg.to,"already open")
                 else:
@@ -724,7 +724,7 @@ def bot(op):
                     X.preventJoinByTicket = True
                     ki.updateGroup(X)
                     if wait["lang"] == "JP":
-                        ki.sendText(msg.to,"Done Chivas")
+                        ki.sendText(msg.to,"Done")
                     else:
                         ki.sendText(msg.to,"already close")
                 else:
@@ -738,7 +738,7 @@ def bot(op):
                     X.preventJoinByTicket = True
                     kk.updateGroup(X)
                     if wait["lang"] == "JP":
-                        kk.sendText(msg.to,"Done Chivas")
+                        kk.sendText(msg.to,"Done")
                     else:
                         kk.sendText(msg.to,"already close")
                 else:
@@ -752,7 +752,7 @@ def bot(op):
                     X.preventJoinByTicket = True
                     kc.updateGroup(X)
                     if wait["lang"] == "JP":
-                        kc.sendText(msg.to,"Done Chivas")
+                        kc.sendText(msg.to,"Done")
                     else:
                         kc.sendText(msg.to,"already close")
                 else:
